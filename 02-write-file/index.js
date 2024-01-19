@@ -2,7 +2,7 @@ const fs = require('fs');
 const readline = require('readline');
 
 
-const filePath = '02-write-file/output.txt';
+const filePath = '02-write-file/text.txt';
 
 
 const writeStream = fs.createWriteStream(filePath, { flags: 'a' });
